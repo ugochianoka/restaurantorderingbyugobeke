@@ -2,7 +2,7 @@ body{
     font-family: "Smythe";
     height: 80vh;
     margin: auto;
-    width: 100vw;
+    width: 60vw;
 }
 
 /* header */
@@ -13,6 +13,7 @@ header {
     color: white;
     display: flex;
     height: 25vh;
+    font-size: 5rem;
 }
 
 .header-content {
@@ -96,7 +97,7 @@ header {
 }
 
 .total-price{
-    font-size: 1.25rem;
+    font-size: 2rem;
 }
 
 .total-calc{
