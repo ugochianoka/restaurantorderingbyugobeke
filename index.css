@@ -2,7 +2,7 @@ body{
     font-family: "Smythe";
     height: 80vh;
     margin: auto;
-    width: 60vw;
+    width: 37.5rem;
 }
 
 /* header */
@@ -13,7 +13,7 @@ header {
     color: white;
     display: flex;
     height: 25vh;
-    font-size: 5rem;
+    font-size: 3rem;
 }
 
 .header-content {
