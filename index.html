@@ -1,0 +1,42 @@
+<!doctype html>
+<html>
+    <head>
+        <title></title>
+        <link rel="stylesheet" href="/index.css">
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Smythe&display=swap" rel="stylesheet">
+    </head>
+    <body>
+        <header>
+            <div class="header-content">
+                <h1 class="no-margin">Jimmy's Diner</h1>
+                <p class="no-margin little-padding">The best burgers and pizzas in town.</p>
+            </div>
+        </header>
+        <section id="sect-one"></section>
+        <section id="sect-two" class="disabled sect-two">
+            <h4> Your order </h4>
+            <div id="order-total" class="order-total"></div>
+            <button id="purchase-btn" class="purchase-btn">Complete order</button>
+        </section>
+        <div class="order-again">
+            <button class="purchase-btn hidden" id="order-again-btn"> Order again! </button>
+        </div>
+        <section id="sect-three" class="disabled">
+            <form class="payment-form" id="payment-form">
+                <button id="close-payment" class="close-payment"> X </button>
+                <div>
+                    <h5> Enter card details</h5>
+                    <div class="little-margin">
+                        <input placeholder="Enter your name" type="text" class="pay-details" name="name" pattern="[a-zA-Z]+" title="Username is required." required>
+                        <input placeholder="Enter card number" type="text" class="pay-details" name="card-no" pattern="[0-9]+" maxlength="17" minlength="14" required>
+                        <input placeholder="Enter CVV" type="text" class="pay-details" name="cvv"  pattern="[0-9]{3}" maxlength="3" minlength="3" required>
+                        <input id="pay-btn" class="purchase-btn pay-btn" type="submit" value="Pay">
+                    </div>
+                </div>
+            </form>
+        </section> 
+        <script type="module" src="/index.js"></script>
+    </body>
+</html>

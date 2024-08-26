@@ -1,0 +1,235 @@
+body{
+    font-family: "Smythe";
+    height: 100vh;
+    margin: auto;
+    width: 80vw;
+}
+
+/* header */
+header {
+    background-image: url("/burger.jpeg");
+    background-position-x: 60%;
+    background-position-y: 70%;
+    color: white;
+    display: flex;
+    height: 25vh;
+}
+
+.header-content {
+    align-self: center;
+    font-family: "Smythe";
+    padding-left: 2.5rem;
+}
+
+/* section one */
+.emoji{
+    align-self: flex-start;
+    font-size: 4.375rem;
+}
+
+.snack {
+    border-bottom: solid 1px #D2D2D2;
+    display: flex;
+    margin: 0px 3.125rem;
+}
+
+.snack-details{
+    justify-content: left;
+    flex: 5;
+    align-self: center;
+    padding-left: 1.875rem;
+    letter-spacing: 1px;
+}
+
+.snack-name{
+    font-size: 1.75rem;
+}
+/* add and subtract buttons */
+.add-btn {
+    align-self: center;
+    background-color: inherit;
+    border: 1.5px solid #DEDEDE;
+    border-radius: 50%;
+    color: #3C3C3C;
+    font-size: 1.375rem;
+    height: 3.125rem;
+    width: 3.125rem;
+}
+
+.subtract-btn {
+    align-self: center;
+    background-color: inherit;
+    border: 1.5px solid #DEDEDE;
+    border-radius: 50%;
+    color: #3C3C3C;
+    font-size: 1.375rem;
+    height: 3.125rem;
+    margin-left: 4px;
+    width: 3.125rem;
+}
+
+/* section two */
+.total{
+    display: flex;
+    justify-content: space-between;
+    margin: 0;
+}
+
+.total-details{
+    display:flex;
+    justify-content: space-between;
+}
+
+.total-name{
+    font-size: 1.75rem;
+    margin: 0;
+    align-self: center;
+}
+
+.total-number{
+    font-size: 15px;
+    margin: 0 9px;
+    align-self: center;
+    padding-top: 5px;
+}
+
+.total-price{
+    font-size: 1.25rem;
+}
+
+.total-calc{
+    display: flex;
+    justify-content: space-between;
+    font-size: 28px;
+}
+
+.remove-btn{
+    border: none;
+    background-color: inherit;
+    text-decoration: underline;
+    color: #BBBBBB;
+    font-size: 12px;
+    margin: 0;
+    padding-top: 5px;
+}
+
+.sect-two{
+    margin: 0px 50px;
+    text-align: center;
+}
+
+.sect-two h4 {
+    font-size: 25px;
+    margin-bottom: 10px;
+}
+
+hr{
+    height: 2px;
+    background-color: #393333;
+    border: 0;
+}
+
+.purchase-btn {
+    background-color: #16DB99;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    color: white;
+    border: none;
+    font-weight: 700;
+    padding: 15px 30px;
+    margin-bottom: 30px;
+    border-radius: 3px;
+    width: 100%;
+}
+
+
+/* section three */
+.pay-details{
+    display:block;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    width: 400px;
+    padding: 15px;
+    margin: 15px 0px;
+    border: 1.3px solid #757575;
+    border-radius: 4px;
+}
+
+.payment-form{
+    text-align: center;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    position: fixed;
+    top:0;
+    bottom:0;
+    left: 0;
+    right: 0;
+    margin: auto;
+    border: 1.3px solid #757575;
+    width: fit-content;
+    height: max-content;
+    border-radius: 4px;
+    background-color: white ;
+    box-shadow: 0 2px 50px 30px rgba(0, 0, 0, 0.2);
+}
+
+.little-margin{
+    margin: 50px 15px 0px 15px;
+}
+
+.pay-btn{
+    margin-top: 20px;
+}
+
+.unclickable{
+    pointer-events: none;
+}
+
+.ty-note{
+    background-color: #ECFDF5;
+    padding: 10px;
+    margin: 30px 0;
+    color: #065F46;
+    font-size: 32px;
+}
+
+.hidden{
+    display: none;
+}
+
+#order-again-btn{
+    width: 15rem;
+}
+
+.order-again{
+    width: max-content;
+    margin: auto;
+}
+
+.close-payment{
+    background-color: red;
+    border-radius: 50%;
+    color: white;
+    position: absolute;
+    top:-10px;
+    right: -5px;
+    border: 0;
+    font-size: 20px;
+    font-weight: 900;
+    width: 30px;
+    height: 30px;
+}
+
+.no-margin {
+    margin: 0;
+}
+
+
+.little-padding{
+    padding-top: 10px;
+}
+
+.grey {
+    color: #8B8B8B;
+}
+
+.disabled{
+    display: none;
+}
