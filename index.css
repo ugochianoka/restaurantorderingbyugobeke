@@ -15,6 +15,7 @@ header {
     background-position-y: 70%;
     color: white;
     display: flex;
+    height: 10.438rem;
 }
 
 .header-content {
