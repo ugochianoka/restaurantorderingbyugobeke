@@ -3,6 +3,9 @@ body{
     margin: auto;
     width: 80%;
 }
+.container{
+    max-width: 600px;
+}
 
 /* header */
 header {
