@@ -15,7 +15,7 @@ header {
     background-position-y: 70%;
     color: white;
     display: flex;
-    height: 10.438rem;
+    height: 20%;
 }
 
 .header-content {
@@ -35,6 +35,7 @@ header {
     display: flex;
     margin: 0px 3.125rem;
     font-size: 1.2rem;
+    height: 17%;
 }
 
 .snack-details{
