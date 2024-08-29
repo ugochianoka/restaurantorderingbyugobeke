@@ -252,5 +252,7 @@ hr{
     .snack-details {
         font-size: 1rem;
     }
+    .snack {
+        padding-top: 0.5rem;
 }
 
