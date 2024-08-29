@@ -240,7 +240,6 @@ hr{
 
 @media(max-width : 1000px) {
     .snack,
-    .container,
     body{
         margin : 0;
     }
@@ -258,6 +257,7 @@ hr{
     }
     .container {
         max-width: 1000px;
+        width: 100%;
     }
     .pay-details{
         width: 12rem;
