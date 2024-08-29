@@ -237,3 +237,12 @@ hr{
 .disabled{
     display: none;
 }
+
+@media(max-width : 1000px) {
+    .snack,
+    .container,
+    body{
+        margin : 0;
+    }
+}
+
