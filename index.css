@@ -244,5 +244,10 @@ hr{
     body{
         margin : 0;
     }
+
+    .emoji{
+        font-size: 2rem;
+        margin: 0;
+    }
 }
 
