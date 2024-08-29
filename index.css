@@ -254,6 +254,7 @@ hr{
     }
     .snack {
         padding: 1rem 0 0.5rem 0;
+        margin: 2 rem;
     }
     .container {
         max-width: 1000px;
