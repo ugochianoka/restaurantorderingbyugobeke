@@ -256,8 +256,11 @@ hr{
     .snack {
         padding: 1rem 0.5rem 0 0;
     }
-    container {
+    .container {
         max-width: 1000px;
+    }
+    .pay-details{
+        width: 12rem;
     }
 }
 
