@@ -253,6 +253,10 @@ hr{
         font-size: 1rem;
     }
     .snack {
-        padding-top: 0.5rem;
+        padding-top: 1rem 0.5rem 0 0;
+    }
+    container {
+        max-width: 1000px;
+    }
 }
 
