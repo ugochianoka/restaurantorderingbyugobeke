@@ -150,9 +150,9 @@ hr{
 .pay-details{
     display:block;
     font-family: Verdana, Geneva, Tahoma, sans-serif;
-    width: 400px;
-    padding: 15px;
-    margin: 15px 0px;
+    width: 25rem;
+    padding: 1rem;
+    margin: 1rem 0px;
     border: 1.3px solid #757575;
     border-radius: 4px;
 }
@@ -251,9 +251,10 @@ hr{
     }
     .snack-details {
         font-size: 1rem;
+        padding-left: 0.3rem;
     }
     .snack {
-        padding-top: 1rem 0.5rem 0 0;
+        padding: 1rem 0.5rem 0 0;
     }
     container {
         max-width: 1000px;
